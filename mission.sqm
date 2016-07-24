@@ -1,4 +1,4 @@
-﻿version=52;
+version=52;
 class EditorData
 {
 	moveGridStep=1;
@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=1658;
+		nextID=1669;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=85;
+		nextID=99;
 	};
 	class Camera
 	{
-		pos[]={11394.52,554.49347,5277.7266};
-		dir[]={0.53934103,-0.82787752,0.15413266};
-		up[]={0.79601473,0.56090826,0.22748505};
-		aside[]={0.27478498,1.2025703e-007,-0.96152318};
+		pos[]={12299.521,142.18964,10878.058};
+		dir[]={-0.11126044,-0.46534216,0.87811226};
+		up[]={-0.058493294,0.88513082,0.46165282};
+		aside[]={0.99207032,-4.0163286e-009,0.12569939};
 	};
 };
 binarizationWanted=0;
@@ -127,13 +127,15 @@ addons[]=
 	"A3_Structures_F_Items_Food",
 	"A3_Structures_F_EPA_Items_Tools",
 	"A3_Structures_F_Heli_Items_Electronics",
-	"A3_Structures_F_Heli_Items_Luggage"
+	"A3_Structures_F_Heli_Items_Luggage",
+	"BWA3_Factionennek",
+	"rhsusf_c_rg33"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=74;
+		items=76;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -625,6 +627,18 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item74
+		{
+			className="BWA3_Factionennek";
+			name="BWA3_Factionennek";
+		};
+		class Item75
+		{
+			className="rhsusf_c_rg33";
+			name="RG-33 MRAP";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
 	};
 };
 randomSeed=13667206;
@@ -685,7 +699,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=342;
+		items=346;
 		class Item0
 		{
 			dataType="Marker";
@@ -9158,7 +9172,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12776.533,6.0482669,9638.3242};
+				position[]={12776.364,7.0864496,9638.6846};
 				angles[]={0,0.59191096,0};
 			};
 			side="Empty";
@@ -9169,7 +9183,6 @@ class Mission
 			};
 			id=288;
 			type="rhsgref_cdf_reg_uaz_open";
-			atlOffset=-1.0381827;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9313,8 +9326,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12765.602,6.2878122,9633.7227};
-				angles[]={0,0.0476707,0};
+				position[]={12778.421,7.0864506,9637.1895};
+				angles[]={0,0.30341199,0};
 			};
 			side="Empty";
 			flags=4;
@@ -9324,7 +9337,7 @@ class Mission
 			};
 			id=289;
 			type="rhsgref_cdf_reg_uaz";
-			atlOffset=-0.79863739;
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -27789,6 +27802,165 @@ class Mission
 			};
 			id=1657;
 			atlOffset=2.6702881e-005;
+		};
+		class Item342
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12287.053,109.3744,10911.461};
+				angles[]={6.2601466,1.7832727,6.1829162};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="if (isServer) then {this disableTIEquipment true}; ";
+			};
+			id=1659;
+			type="Fennek_Flecktarn";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item343
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12290.859,108.99872,10915.858};
+				angles[]={0.029321531,2.6075394,6.138567};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="if (isServer) then {this disableTIEquipment true}; ";
+			};
+			id=1660;
+			type="Fennek_Flecktarn";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item344
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1834.9076,8.5178585,2225.8228};
+				angles[]={0,1.3005495,0.0026529003};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1665;
+			type="rhsusf_rg33_wd";
+			atlOffset=-4.7683716e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item345
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1838.3458,8.5328999,2231.9041};
+				angles[]={6.2818413,2.3813622,0.0026529003};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1668;
+			type="rhsusf_rg33_wd";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
