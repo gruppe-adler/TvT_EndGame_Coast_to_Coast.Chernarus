@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=113;
+		nextID=127;
 	};
 	class Camera
 	{
-		pos[]={12827.742,58.943806,9556.708};
-		dir[]={0.034701314,-0.51151717,0.85858178};
-		up[]={0.020657081,0.85927099,0.51110309};
-		aside[]={0.99919277,3.7922291e-007,-0.040381629};
+		pos[]={4704.5303,22.301695,2567.5242};
+		dir[]={0.79030454,-0.49643809,-0.35916492};
+		up[]={0.45196104,0.86806744,-0.20540018};
+		aside[]={-0.41374695,-2.9278453e-007,-0.91041094};
 	};
 };
 binarizationWanted=0;
@@ -8746,7 +8746,7 @@ class Mission
 			};
 			id=277;
 			type="rhsgref_cdf_reg_uaz";
-			atlOffset=-2.0980835e-005;
+			atlOffset=-0.0016598701;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11824,8 +11824,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4638.3701,8.9094982,2605.408};
-				angles[]={0.013334315,4.7665987,0};
+				position[]={4638.3701,9.9303904,2605.408};
+				angles[]={0.013327583,4.7665987,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11835,7 +11835,7 @@ class Mission
 			};
 			id=478;
 			type="rhsgref_cdf_reg_uaz_open";
-			atlOffset=-1.0382719;
+			atlOffset=-0.017379761;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12381,7 +12381,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4702.1357,9.0482674,2587.8633};
+				position[]={4702.1357,10.08645,2587.8633};
 			};
 			side="Empty";
 			flags=4;
@@ -12391,7 +12391,6 @@ class Mission
 			};
 			id=501;
 			type="rhsgref_cdf_reg_uaz";
-			atlOffset=-1.0381823;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12535,7 +12534,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4698.25,9.0492678,2587.7993};
+				position[]={4698.25,10.08645,2587.7993};
 			};
 			side="Empty";
 			flags=4;
@@ -12545,7 +12544,6 @@ class Mission
 			};
 			id=503;
 			type="rhsgref_cdf_reg_uaz";
-			atlOffset=-1.0371819;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -27640,6 +27638,7 @@ class Mission
 			};
 			id=1675;
 			type="LOP_TAK_Civ_Ural";
+			atlOffset=-0.0043487549;
 			class CustomAttributes
 			{
 				class Attribute0
