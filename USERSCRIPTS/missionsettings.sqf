@@ -18,7 +18,6 @@ BLUFORLRRADIO = "tf_rt1523g_big_rhs";  //blufor lr radio
 OPFORLRRADIO = "tf_rt1523g_big_bwmod"; //opfor lr radio
 =======
 AUTOMATICRADIOS = false;              //automatically give players the correct radios - set this to true if you want to use vanilla loadouts
-SAMEENCRYPTION = true;                //enables radios of all sides to receive each other - use this if you want to give players a BLUFOR longrange and an INDEPENDENT shortrange (for example) -> BLUFOR and OPFOR hear each other if both are on the same frequency
 BLUFORSWRADIO = "tf_anprc152";        //blufor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
 OPFORSWRADIO = "tf_fadak";            //opfor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
 BLUFORLRRADIO = "tf_rt1523g_big_rhs"; //blufor lr radio
@@ -28,24 +27,23 @@ OPFORLRRADIO = "tf_mr3000_rhs";       //opfor lr radio
 
 
 /*radio classnames *************************************************************
-* HANDHELD:
-*   BLUFOR:
+* handheld:
 *   tf_anprc152   - default blufor
-*   tf_rf7800str
-*
-*   OPFOR:
 *   tf_fadak      - default opfor
-*   tf_pnr1000a
-*
-*   INDEPENDENT:
-*   tf_anprc148jem
+*   tf_rf7800str
 *   tf_anprc154
+*   tf_pnr1000a
+*   tf_anprc148jem
 *
-*
-* BACKPACK:                      camo:
-*   BLUFOR:
+* backpack:                      camo:
+*   tf_mr3000_rhs               (EMR summer) - default opfor
+*   tf_bussole                  (EMR summer)
+*   tf_mr3000                   (CSAT hex camo)
+
 *   tf_rt1523g_big_rhs          (multicam) - default blufor
 *   tf_rt1523g_rhs              (multicam)
+*   tf_mr3000_multicam          (multicam)
+*   tf_mr3000_bwmod             (flecktarn)
 *   tf_rt1523g_big_bwmod        (flecktarn)
 *   tf_rt1523g_bwmod            (flecktarn)
 *   tf_mr3000_bwmod_tropen      (tropentarn)
@@ -53,22 +51,13 @@ OPFORLRRADIO = "tf_mr3000_rhs";       //opfor lr radio
 *   tf_anarc210                 (similar to UCP)
 *   tf_rt1523g                  (MTP)
 *   tf_rt1523g_big              (MTP)
+
+*   tf_anarc164                 (generic wooland camo)
+*   tf_anprc155                 (AAF digi camo)
+*   tf_anprc155_coyote          (coyote)
+*   tf_mr6000l                  (tan)
 *   tf_rt1523g_black            (black)
 *   tf_rt1523g_fabric           (green)
 *   tf_rt1523g_green            (olive)
 *   tf_rt1523g_sage             (sage)
-*
-*   OPFOR:
-*   tf_mr3000_rhs               (EMR summer) - default opfor
-*   tf_mr3000_multicam          (multicam)
-*   tf_mr3000_bwmod             (flecktarn)
-*   tf_mr3000                   (CSAT hex camo)
-*   tf_mr6000l                  (tan)
-*   tf_bussole                  (EMR summer)
-*
-*   INDEPENDENT:
-*   tf_anprc155                 (AAF digi camo)
-*   tf_anprc155_coyote          (coyote)
-*   tf_anarc164                 (generic wooland camo)
-
 *******************************************************************************/
