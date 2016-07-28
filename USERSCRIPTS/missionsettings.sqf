@@ -10,11 +10,11 @@ RESPAWNWAVEEXTRATIME = 30;            //time after a wave has respawned, that an
 VEHICLERESPAWNTIME = 400;             //time after which vehicles respawn
 VEHICLERESPAWNRADIUS = 500;           //distance between startposition and current position for a vehicle to start the respawn timer
 
-AUTOMATICRADIOS = false;              //automatically give players the correct radios - set this to true if you want to use vanilla loadouts
-BLUFORSWRADIO = "tf_anprc152";        //blufor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
-OPFORSWRADIO = "tf_fadak";            //opfor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
-BLUFORLRRADIO = "tf_rt1523g_big_rhs"; //blufor lr radio
-OPFORLRRADIO = "tf_mr3000_rhs";       //opfor lr radio
+AUTOMATICRADIOS = false;               //automatically give players the correct radios - set this to true if you want to use vanilla loadouts
+BLUFORSWRADIO = "tf_anprc152";         //blufor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
+OPFORSWRADIO = "tf_anprc152";          //opfor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
+BLUFORLRRADIO = "tf_rt1523g_big_rhs";  //blufor lr radio
+OPFORLRRADIO = "tf_rt1523g_big_bwmod"; //opfor lr radio
 
 
 

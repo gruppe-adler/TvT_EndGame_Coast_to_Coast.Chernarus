@@ -50,7 +50,7 @@ comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "tf_anprc148jem";
+this linkItem "tf_anprc152";
 this linkItem "ItemGPS";
 
 
@@ -95,7 +95,7 @@ comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "tf_anprc148jem";
+this linkItem "tf_anprc152";
 this linkItem "ItemGPS";
 };
 
@@ -141,7 +141,7 @@ comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "tf_anprc148jem";
+this linkItem "tf_anprc152";
 this linkItem "ItemGPS";
 
 
@@ -186,7 +186,7 @@ comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "tf_anprc148jem";
+this linkItem "tf_anprc152";
 this linkItem "ItemGPS";
 
 
@@ -233,7 +233,7 @@ comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "tf_anprc148jem";
+this linkItem "tf_anprc152";
 this linkItem "ItemGPS";
 
 };
@@ -279,7 +279,7 @@ comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "tf_anprc148jem";
+this linkItem "tf_anprc152";
 this linkItem "ItemGPS";
 
 };
@@ -324,7 +324,7 @@ comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "tf_anprc148jem";
+this linkItem "tf_anprc152";
 this linkItem "ItemGPS";
 
 
